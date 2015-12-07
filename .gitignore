@@ -19,5 +19,10 @@ nytprof.out
 *.bs
 /_eumm/
 /.project
+<<<<<<< HEAD
 *.sublime-project
 *.sublime-workspace
+=======
+*-project
+-workspace
+>>>>>>> de3972d0f2e935234d315f209514743050dde40d
