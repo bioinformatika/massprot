@@ -1,4 +1,4 @@
-package MassProt;
+package Massprot;
 
 use 5.006;
 use strict;
@@ -6,7 +6,7 @@ use warnings;
 
 =head1 NAME
 
-MassProt - The great new MassProt!
+Massprot - The great new Massprot!
 
 =head1 VERSION
 
@@ -23,9 +23,9 @@ Quick summary of what the module does.
 
 Perhaps a little code snippet.
 
-    use MassProt;
+    use Massprot;
 
-    my $foo = MassProt->new();
+    my $foo = Massprot->new();
     ...
 
 =head1 EXPORT
@@ -51,12 +51,12 @@ sub function2 {
 
 =head1 AUTHOR
 
-David Ovelleiro, C<< <bioinformatika.project> >>
+David Ovelleiro, C<< <mass.proteomics at gmail.com> >>
 
 =head1 BUGS
 
 Please report any bugs or feature requests to C<bug-massprot at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=MassProt>.  I will be notified, and then you'll
+the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Massprot>.  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
 
 
@@ -66,7 +66,7 @@ automatically be notified of progress on your bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc MassProt
+    perldoc Massprot
 
 
 You can also look for information at:
@@ -75,19 +75,19 @@ You can also look for information at:
 
 =item * RT: CPAN's request tracker (report bugs here)
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=MassProt>
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Massprot>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
-L<http://annocpan.org/dist/MassProt>
+L<http://annocpan.org/dist/Massprot>
 
 =item * CPAN Ratings
 
-L<http://cpanratings.perl.org/d/MassProt>
+L<http://cpanratings.perl.org/d/Massprot>
 
 =item * Search CPAN
 
-L<http://search.cpan.org/dist/MassProt/>
+L<http://search.cpan.org/dist/Massprot/>
 
 =back
 
@@ -97,7 +97,7 @@ L<http://search.cpan.org/dist/MassProt/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2015 David Ovelleiro.
+Copyright 2016 David Ovelleiro.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the the Artistic License (2.0). You may obtain a
@@ -138,4 +138,4 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of MassProt
+1; # End of Massprot

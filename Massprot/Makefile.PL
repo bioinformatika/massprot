@@ -3,9 +3,9 @@ use strict;
 use warnings;
 use inc::Module::Install;
 
-name     'MassProt';
-all_from 'lib/MassProt.pm';
-author   q{David Ovelleiro <bioinformatika.project>};
+name     'Massprot';
+all_from 'lib/Massprot.pm';
+author   q{David Ovelleiro <mass.proteomics@gmail.com>};
 license  'artistic2';
 
 perl_version 5.006;
@@ -14,11 +14,11 @@ tests_recursive('t');
 
 resources (
    #homepage   => 'http://yourwebsitehere.com',
-   #IRC        => 'irc://irc.perl.org/#MassProt',
+   #IRC        => 'irc://irc.perl.org/#Massprot',
    license    => 'http://www.perlfoundation.org/artistic_license_2_0',
-   #repository => 'git://github.com/David Ovelleiro/MassProt.git',
-   #repository => 'https://bitbucket.org/David Ovelleiro/MassProt',
-   bugtracker => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=MassProt',
+   #repository => 'git://github.com/David Ovelleiro/Massprot.git',
+   #repository => 'https://bitbucket.org/David Ovelleiro/Massprot',
+   bugtracker => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Massprot',
 );
 
 configure_requires (

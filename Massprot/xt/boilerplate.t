@@ -1,3 +1,4 @@
+#!perl -T
 use 5.006;
 use strict;
 use warnings;
@@ -49,7 +50,7 @@ TODO: {
     "placeholder date/time"       => qr(Date/time)
   );
 
-  module_boilerplate_ok('lib/MassProt.pm');
+  module_boilerplate_ok('lib/Massprot.pm');
 
 
 }
