@@ -22,6 +22,9 @@ nytprof.out
 <<<<<<< HEAD
 *.sublime-project
 *.sublime-workspace
+*tar.gz
+blib/
+MANIFEST.bak
 =======
 *-project
 -workspace

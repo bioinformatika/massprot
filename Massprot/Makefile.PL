@@ -6,17 +6,16 @@ use inc::Module::Install;
 name     'Massprot';
 all_from 'lib/Massprot.pm';
 author   q{David Ovelleiro <mass.proteomics@gmail.com>};
-license  'artistic2';
+license  'Apache License 2';
 
 perl_version 5.006;
 
 tests_recursive('t');
 
 resources (
-   #homepage   => 'http://yourwebsitehere.com',
-   #IRC        => 'irc://irc.perl.org/#Massprot',
-   license    => 'http://www.perlfoundation.org/artistic_license_2_0',
-   #repository => 'git://github.com/David Ovelleiro/Massprot.git',
+   homepage   => 'http://bioinformatika.github.io/massprot/',
+   license    => 'http://www.apache.org/licenses/LICENSE-2.0',
+   repository => 'git://github.com/bioinformatika/massprot/Massprot.git',
    #repository => 'https://bitbucket.org/David Ovelleiro/Massprot',
    bugtracker => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Massprot',
 );
