@@ -1,4 +1,4 @@
-blib/arch/.exists
+"prove", "-vlr", "--merge"blib/arch/.exists
 blib/arch/auto/Massprot/.exists
 blib/bin/.exists
 blib/lib/.exists
