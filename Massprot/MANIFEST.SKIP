@@ -2,7 +2,28 @@ massprot.sublime-project
 massprot.sublime-workspace
 MANIFEST.bak
 MANIFEST.SKIP
-.+.tar.gz
+.+\.tar.gz
+ignore.txt
+inc/Module/AutoInstall.pm
+inc/Module/Install.pm
+inc/Module/Install/AutoInstall.pm
+inc/Module/Install/Base.pm
+inc/Module/Install/Can.pm
+inc/Module/Install/Fetch.pm
+inc/Module/Install/Include.pm
+inc/Module/Install/Makefile.pm
+inc/Module/Install/Metadata.pm
+inc/Module/Install/Win32.pm
+inc/Module/Install/WriteAll.pm
+blib/arch/auto/Massprot/.exists
+blib/bin/.exists
+blib/lib/.exists
+blib/lib/auto/Massprot/.exists
+blib/lib/Massprot.pm
+blib/man1/.exists
+blib/man3/.exists
+blib/script/.exists
+
 
 
 
