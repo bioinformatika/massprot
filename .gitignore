@@ -13,6 +13,10 @@ Build.bat
 /META.yml
 /META.json
 /MYMETA.*
+META.yml
+META.json
+MYMETA.*
+Makefile
 nytprof.out
 /pm_to_blib
 *.o
