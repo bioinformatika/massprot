@@ -7,7 +7,7 @@ use Moose;
 
 =head1 NAME
 
-Massprot - The great new Massprot!
+Massprot - Mass Spectrometry-based Proteomics Toolkit
 
 =head1 VERSION
 

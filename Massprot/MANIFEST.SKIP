@@ -1,29 +1,82 @@
 massprot.sublime-project
 massprot.sublime-workspace
-MANIFEST.bak
-MANIFEST.SKIP
-.+\.tar.gz
-ignore.txt
-inc/Module/AutoInstall.pm
-inc/Module/Install.pm
-inc/Module/Install/AutoInstall.pm
-inc/Module/Install/Base.pm
-inc/Module/Install/Can.pm
-inc/Module/Install/Fetch.pm
-inc/Module/Install/Include.pm
-inc/Module/Install/Makefile.pm
-inc/Module/Install/Metadata.pm
-inc/Module/Install/Win32.pm
-inc/Module/Install/WriteAll.pm
-blib/arch/auto/Massprot/.exists
-blib/bin/.exists
-blib/lib/.exists
-blib/lib/auto/Massprot/.exists
-blib/lib/Massprot.pm
-blib/man1/.exists
-blib/man3/.exists
-blib/script/.exists
+\binc/Module/AutoInstall.pm
+\binc/Module/Install.pm
+\binc/Module/Install/AutoInstall.pm
+\binc/Module/Install/Base.pm
+\binc/Module/Install/Can.pm
+\binc/Module/Install/Fetch.pm
+\binc/Module/Install/\binclude.pm
+\binc/Module/Install/Makefile.pm
+\binc/Module/Install/Metadata.pm
+\binc/Module/Install/Win32.pm
+\binc/Module/Install/WriteAll.pm
+# Avoid version control files.
+\bRCS\b
+\bCVS\b
+\bSCCS\b
+,v$
+\B\.svn\b
+\B\.git\b
+\B\.gitignore\b
+\b_darcs\b
+\B\.cvsignore$
 
+# Avoid VMS specific MakeMaker generated files
+\bDescrip.MMS$
+\bDESCRIP.MMS$
+\bdescrip.mms$
 
+# Avoid Makemaker generated and utility files.
+\bMANIFEST\.bak
+\bMakefile$
+\bblib/
+\binc/
+\bMakeMaker-\d
+\bpm_to_blib\.ts$
+\bpm_to_blib$
+\bblibdirs\.ts$         # 6.18 through 6.25 generated this
 
+# Avoid Module::Build generated and utility files.
+\bBuild$
+\b_build/
+\bBuild.bat$
+\bBuild.COM$
+\bBUILD.COM$
+\bbuild.com$
 
+# Avoid temp and backup files.
+~$
+\.old$
+\#$
+\b\.#
+\.bak$
+\.tmp$
+\.#
+\.rej$
+
+# Avoid OS-specific files/dirs
+# Mac OSX metadata
+\B\.DS_Store
+# Mac OSX SMB mount metadata files
+\B\._
+
+# Avoid Devel::Cover and Devel::CoverX::Covered files.
+\bcover_db\b
+\bcovered\b
+ 
+# Avoid MYMETA files
+^MYMETA\.
+#!end included /usr/share/perl/5.8/ExtUtils/MANIFEST.SKIP
+
+# Avoid configuration metadata file
+^MYMETA\.
+
+# Avoid Module::Build generated and utility files.
+\bBuild$
+\bBuild.bat$
+\b_build
+\bBuild.COM$
+\bBUILD.COM$
+\bbuild.com$
+^MANIFEST\.SKIP
