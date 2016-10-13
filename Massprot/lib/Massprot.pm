@@ -17,7 +17,7 @@ Version 0.01
 
 our $VERSION = '0.01';
 
-
+print "Ahora, a empezar\n";
 =head1 SYNOPSIS
 
 Quick summary of what the module does.
