@@ -4,7 +4,7 @@ use 5.006;
 use strict;
 use warnings;
 use Moose;
-
+#use Massprot::Formats::FastaDatabase;
 =head1 NAME
 
 Massprot - Mass Spectrometry-based Proteomics Toolkit
@@ -14,6 +14,7 @@ Massprot - Mass Spectrometry-based Proteomics Toolkit
 Version 0.01
 
 =cut
+print $_."\n" foreach @INC;
 
 our $VERSION = '0.01';
 
@@ -138,5 +139,5 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 =cut
-
+__PACKAGE__->meta->make_immutable; # End of Bio::Rambam::Proteomics
 1; # End of Massprot
