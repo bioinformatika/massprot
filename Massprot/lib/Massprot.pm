@@ -14,11 +14,10 @@ Massprot - Mass Spectrometry-based Proteomics Toolkit
 Version 0.01
 
 =cut
-print $_."\n" foreach @INC;
 
 our $VERSION = '0.01';
 
-print "Ahora, a empezar\n";
+
 =head1 SYNOPSIS
 
 Quick summary of what the module does.
