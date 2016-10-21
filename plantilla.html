@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Massprot</title>
+    <meta name="description" content="Massprot Mass Spectrometry Proteomics Perl Tools">
+    <meta name="author" content="David Ovelleiro">
+    <!--  Stiles -->
+    <link rel="stylesheet" href="css/pojoaque.css">
+    <script src="js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/my.styles.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  </head>
+
+  <body>
+      <!-- Navigation bar -->
+      <nav class="navbar navbar-inverse center-block">
+        <div class="container-fluid">
+          <div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand titulo" href="index.html">Massprot</a><a href="index.html"><img src="pictures/camello2.png" href="index.html" alt="Massprot" width="90" class="img-rounded"/></a></div>
+          <div id="navbar" class="navbar-collapse collapse"><ul class="nav navbar-nav"><li><a href="#">  </a></li><li><a href="#">  </a></li><li><a href="#">  </a></li>
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="docs.html">Docs</a></li>
+              <li><a href="install.html">Install</a></li>
+              <li class="dropdown">
+                <a href="examples.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Examples<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="examples.html">Examples</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Simple examples</li>
+                  <li><a href="examples.html#ex1">Reverse DB</a></li>
+                  <li><a href="examples.html#ex2">Formats</a></li>
+                  <li><a href="examples.html#ex3">DB info</a></li>
+                  <li><a href="examples.html#ex4">Validation</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Complex workflows</li>
+                  <li><a href="examples.html#ex5">Workflow1</a></li>
+                  <li><a href="examples.html#ex6">Workflow2</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+      <!-- End Navigation bar -->
+
+
+
+<div class="center-block contents">
+<p>Lorem <a href="http://google.com">ipsum</a> dolor sit amet, consectetur adipiscing elit.
+Nam eu sem tempor, varius quam at, luctus dui. Mauris magna
+metus, dapibus nec turpis vel, semper malesuada ante.
+Vestibulum id metus ac nisl bibendum scelerisque non non
+purus. Suspendisse varius nibh non aliquet sagittis. In
+tincidunt orci sit amet elementum vestibulum. Vivamus
+fermentum in arcu in aliquam. Quisque aliquam porta odio
+in fringilla. Vivamus nisl leo, blandit at bibendum eu,
+tristique eget risus. Integer aliquet quam ut elit suscipit,
+id interdum neque porttitor. Integer
+faucibus ligula.</p>
+<h3 id="ex.simple">Simple examples</h3>
+<p>Lorem <a href="http://google.com">ipsum</a> dolor sit amet, consectetur adipiscing elit.
+Nam eu sem tempor, varius quam at, luctus dui. Mauris magna
+metus, dapibus nec turpis vel, semper malesuada ante.
+Vestibulum id metus ac nisl bibendum scelerisque non non
+purus. Suspendisse varius nibh non aliquet sagittis. In
+tincidunt orci sit amet elementum vestibulum. Vivamus
+fermentum in arcu in aliquam. Quisque aliquam porta odio
+in fringilla. Vivamus nisl leo, blandit at bibendum eu,
+tristique eget risus. Integer aliquet quam ut elit suscipit,
+id interdum neque porttitor. Integer
+faucibus ligula.</p>
+<hr>
+<h4 id="ex1">Reverse database</h4>
+<p>Lorem <a href="http://google.com">ipsum</a> dolor sit amet, consectetur adipiscing elit.
+Nam eu sem tempor, varius quam at, luctus dui. Mauris magna
+metus, dapibus nec turpis vel, semper malesuada ante.
+Vestibulum id metus ac nisl bibendum scelerisque non non
+purus. Suspendisse varius nibh non aliquet sagittis. In
+tincidunt orci sit amet elementum vestibulum. Vivamus
+fermentum in arcu in aliquam. Quisque aliquam porta odio
+in fringilla. Vivamus nisl leo, blandit at bibendum eu,
+tristique eget risus. Integer aliquet quam ut elit suscipit,
+id interdum neque porttitor. Integer
+faucibus ligula.</p>
+<p>Vestibulum quis quam ut magna consequat faucibus.
+Pellentesque eget nisi a mi suscipit tincidunt. Ut tempus
+dictum risus. Pellentesque viverra sagittis quam at mattis.
+Suspendisse potenti. Aliquam sit amet gravida nibh,
+facilisis gravida odio. Phasellus auctor velit at lacus
+blandit, commodo iaculis justo viverra. Etiam vitae est
+arcu. Mauris vel congue dolor. Aliquam eget mi mi. Fusce
+quam tortor, commodo ac dui quis, bibendum viverra erat.
+Maecenas mattis lectus enim, quis tincidunt dui molestie
+euismod. Curabitur et diam tristique, accumsan nunc eu,
+hendrerit tellus.</p>
+<hr>
+<h4 id="ex2">Formats</h4>
+<p> Nullam hendrerit justo non leo aliquet imperdiet. Etiam
+in sagittis lectus. Suspendisse ultrices placerat accumsan.
+Mauris quis dapibus orci. In dapibus velit blandit pharetra
+tincidunt. Quisque non sapien nec lacus condimentum facilisis
+ut iaculis enim. Sed viverra interdum bibendum. Donec ac
+sollicitudin dolor. Sed fringilla vitae lacus at rutrum.
+Phasellus congue vestibulum ligula sed consequat.</p>
+<p>Vestibulum consectetur scelerisque lacus, ac fermentum
+lorem convallis sed. Nam odio tortor, dictum quis malesuada at,
+pellentesque vitae orci. Vivamus elementum, felis eu auctor
+lobortis, diam velit egestas lacus, quis fermentum metus ante
+quis urna. Sed at facilisis libero. Cum sociis natoque
+penatibus et magnis dis parturient montes, nascetur ridiculus
+mus. Vestibulum bibendum blandit dolor. Nunc orci dolor,
+molestie nec nibh in, hendrerit tincidunt ante. Vivamus sem
+augue, hendrerit non sapien in, mollis ornare augue.</p>
+<hr>
+<h4 id="ex3">DB info</h4>
+<p>Integer pulvinar leo id risus pellentesque vestibulum.
+Sed diam libero, sodales eget sapien vel, porttitor bibendum
+enim. Donec sed nibh vitae lorem porttitor blandit in nec ante.
+Pellentesque vitae metus ipsum. Phasellus sed nunc ac sem
+malesuada condimentum. Etiam in aliquam lectus. Nam vel sapien
+diam. Donec pharetra id arcu eget blandit. Proin imperdiet
+mattis augue in porttitor. Quisque tempus enim id lobortis
+feugiat. Suspendisse tincidunt risus quis dolor fringilla
+blandit. Ut sed sapien at purus lacinia porttitor. Nullam
+iaculis, felis a pretium ornare, dolor nisl semper tortor, vel
+sagittis lacus est consequat eros. Sed id pretium nisl.
+Curabitur dolor nisl, laoreet vitae aliquam id, tincidunt sit
+amet mauris. </p>
+
+<pre><code class="perl">
+use strict;
+use warnings;
+use Data::Dumper;
+open IN ,"<placa1.txt";
+my $head="";
+my %datos;
+my @mirnas;
+my $i=0;
+while(<IN>){
+  chomp;
+  if($_=~/^\tmir-33a_5p CT/){
+    $_=~s/ //g;
+    $_=~s/\_/\./g;
+    $head=$_;
+    @mirnas=split /\t/,$head;
+    next;
+  }
+  $i++;
+  #print Dumper @mirnas;exit;
+  my @campos=split /\t/,$_;
+  foreach(my $j=1;$j<$#campos+1;$j++){
+    #print "$campos[$j]\t";
+    $campos[$j]=40 unless $campos[$j];
+    push @{$datos{$mirnas[$j]}{$campos[0]}},$campos[$j];
+  }
+}
+#print Dumper %datos;exit;
+open OUT,">placa1.procesada.txt";
+foreach my $mirna(sort keys %datos){
+  foreach(keys %{$datos{$mirna}}){
+    print OUT $mirna,"\t",$_,"\t",$datos{$mirna}{$_}[0],"\t",$datos{$mirna}{$_}[1],"\n";
+  }
+}
+</code></pre>
+<p>Integer pulvinar leo id risus pellentesque vestibulum.
+Sed diam libero, sodales eget sapien vel, porttitor bibendum
+enim. Donec sed nibh vitae lorem porttitor blandit in nec ante.
+Pellentesque vitae metus ipsum. Phasellus sed nunc ac sem
+malesuada condimentum. Etiam in aliquam lectus. Nam vel sapien
+diam. Donec pharetra id arcu eget blandit. Proin imperdiet
+mattis augue in porttitor. Quisque tempus enim id lobortis
+feugiat. Suspendisse tincidunt risus quis dolor fringilla
+blandit. Ut sed sapien at purus lacinia porttitor. Nullam
+iaculis, felis a pretium ornare, dolor nisl semper tortor, vel
+sagittis lacus est consequat eros. Sed id pretium nisl.
+Curabitur dolor nisl, laoreet vitae aliquam id, tincidunt sit
+amet mauris. </p>
+<hr>
+<h4 id="ex4">Validation</h4>
+<p>Phasellus vitae suscipit justo. Mauris pharetra feugiat
+ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis
+luctus turpis at accumsan tincidunt. Phasellus risus risus,
+volutpat vel tellus ac, tincidunt fringilla massa. Etiam
+hendrerit dolor eget ante rutrum adipiscing. Cras interdum
+ipsum mattis, tempus mauris vel, semper ipsum. Duis sed dolor
+ut enim lobortis pellentesque ultricies ac ligula. Pellentesque
+convallis elit nisi, id vulputate ipsum ullamcorper ut. Cras
+ac pulvinar purus, ac viverra est. Suspendisse potenti. Integer
+pellentesque neque et elementum tempus. Curabitur bibendum in
+ligula ut rhoncus.</p>
+<p>Quisque pharetra velit id velit iaculis pretium. Nullam a
+justo sed ligula porta semper eu quis enim. Pellentesque
+pellentesque, metus at facilisis hendrerit, lectus velit
+facilisis leo, quis volutpat turpis arcu quis enim. Nulla
+viverra lorem elementum interdum ultricies. Suspendisse
+accumsan quam nec ante mollis tempus. Morbi vel accumsan diam,
+eget convallis tellus. Suspendisse potenti.</p>
+<hr>
+<h3 id="ex.workflows">Complex workflows</h3>
+<h4 id="ex5">Workflow 1</h4>
+<p>Phasellus vitae suscipit justo. Mauris pharetra feugiat
+ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis
+luctus turpis at accumsan tincidunt. Phasellus risus risus,
+volutpat vel tellus ac, tincidunt fringilla massa. Etiam
+hendrerit dolor eget ante rutrum adipiscing. Cras interdum
+ipsum mattis, tempus mauris vel, semper ipsum. Duis sed dolor
+ut enim lobortis pellentesque ultricies ac ligula. Pellentesque
+convallis elit nisi, id vulputate ipsum ullamcorper ut. Cras
+ac pulvinar purus, ac viverra est. Suspendisse potenti. Integer
+pellentesque neque et elementum tempus. Curabitur bibendum in
+ligula ut rhoncus.</p>
+<p>Quisque pharetra velit id velit iaculis pretium. Nullam a
+justo sed ligula porta semper eu quis enim. Pellentesque
+pellentesque, metus at facilisis hendrerit, lectus velit
+facilisis leo, quis volutpat turpis arcu quis enim. Nulla
+viverra lorem elementum interdum ultricies. Suspendisse
+accumsan quam nec ante mollis tempus. Morbi vel accumsan diam,
+eget convallis tellus. Suspendisse potenti.</p>
+<p>Quisque pharetra velit id velit iaculis pretium. Nullam a
+justo sed ligula porta semper eu quis enim. Pellentesque
+pellentesque, metus at facilisis hendrerit, lectus velit
+facilisis leo, quis volutpat turpis arcu quis enim. Nulla
+viverra lorem elementum interdum ultricies. Suspendisse
+accumsan quam nec ante mollis tempus. Morbi vel accumsan diam,
+eget convallis tellus. Suspendisse potenti.</p>
+<p>Quisque pharetra velit id velit iaculis pretium. Nullam a
+justo sed ligula porta semper eu quis enim. Pellentesque
+pellentesque, metus at facilisis hendrerit, lectus velit
+facilisis leo, quis volutpat turpis arcu quis enim. Nulla
+viverra lorem elementum interdum ultricies. Suspendisse
+accumsan quam nec ante mollis tempus. Morbi vel accumsan diam,
+eget convallis tellus. Suspendisse potenti.</p>
+<hr>
+<h4 id="ex6">Workflow 2</h4>
+<p>Phasellus vitae suscipit justo. Mauris pharetra feugiat
+ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis
+luctus turpis at accumsan tincidunt. Phasellus risus risus,
+volutpat vel tellus ac, tincidunt fringilla massa. Etiam
+hendrerit dolor eget ante rutrum adipiscing. Cras interdum
+ipsum mattis, tempus mauris vel, semper ipsum. Duis sed dolor
+ut enim lobortis pellentesque ultricies ac ligula. Pellentesque
+convallis elit nisi, id vulputate ipsum ullamcorper ut. Cras
+ac pulvinar purus, ac viverra est. Suspendisse potenti. Integer
+pellentesque neque et elementum tempus. Curabitur bibendum in
+ligula ut rhoncus.</p>
+<p>Quisque pharetra velit id velit iaculis pretium. Nullam a
+justo sed ligula porta semper eu quis enim. Pellentesque
+pellentesque, metus at facilisis hendrerit, lectus velit
+facilisis leo, quis volutpat turpis arcu quis enim. Nulla
+viverra lorem elementum interdum ultricies. Suspendisse
+accumsan quam nec ante mollis tempus. Morbi vel accumsan diam,
+eget convallis tellus. Suspendisse potenti.
+Quisque pharetra velit id velit iaculis pretium. Nullam a
+justo sed ligula porta semper eu quis enim. Pellentesque
+pellentesque, metus at facilisis hendrerit, lectus velit
+facilisis leo, quis volutpat turpis arcu quis enim. Nulla
+viverra lorem elementum interdum ultricies. Suspendisse
+accumsan quam nec ante mollis tempus. Morbi vel accumsan diam,
+eget convallis tellus. Suspendisse potenti.
+Quisque pharetra velit id velit iaculis pretium. Nullam a
+justo sed ligula porta semper eu quis enim. Pellentesque
+pellentesque, metus at facilisis hendrerit, lectus velit
+facilisis leo, quis volutpat turpis arcu quis enim. Nulla
+viverra lorem elementum interdum ultricies. Suspendisse
+accumsan quam nec ante mollis tempus. Morbi vel accumsan diam,
+eget convallis tellus. Suspendisse potenti.
+Quisque pharetra velit id velit iaculis pretium. Nullam a
+justo sed ligula porta semper eu quis enim. Pellentesque
+pellentesque, metus at facilisis hendrerit, lectus velit
+facilisis leo, quis volutpat turpis arcu quis enim. Nulla
+viverra lorem elementum interdum ultricies. Suspendisse
+accumsan quam nec ante mollis tempus. Morbi vel accumsan diam,
+eget convallis tellus. Suspendisse potenti.
+Quisque pharetra velit id velit iaculis pretium. Nullam a
+justo sed ligula porta semper eu quis enim. Pellentesque
+pellentesque, metus at facilisis hendrerit, lectus velit
+facilisis leo, quis volutpat turpis arcu quis enim. Nulla
+viverra lorem elementum interdum ultricies. Suspendisse
+accumsan quam nec ante mollis tempus. Morbi vel accumsan diam,
+eget convallis tellus. Suspendisse potenti.</p>
+<hr>
+</div>
+<script type="text/javascript">
+$(function () {
+$('#myNav').affix({
+offset: {
+top: 60
+}
+});
+});
+</script>
+
+ <footer class="footer center-block">
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+</footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
