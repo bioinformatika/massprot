@@ -8,6 +8,7 @@ use Massprot::Fastadb;
 
 
 
+
 my $output_folder= tempdir();#( CLEANUP => 1 );
 my $output_full_path = File::Spec->catpath( '', $output_folder, "test.reverse.fasta" );
 my $reversedb_text;
@@ -23,11 +24,11 @@ sub initialize_fasta{
 }
 sub reversedb{
 	my $db=Massprot::Fastadb->new(file=>"./t/testdata/testDB.fasta");
-	$db->reversedb(file=>$output_full_path);
+	my $rdb=$db->reversedb(file=>$output_full_path);
 	open IN, $output_full_path;
 	local $/;
-	my $rdb=<IN>;
-	return 1 if $rdb eq $reversedb_text;
+	my $rdb_text=<IN>;
+	return 1 if $rdb_text eq $reversedb_text;
 }
 
 

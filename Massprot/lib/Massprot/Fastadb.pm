@@ -12,18 +12,10 @@ sub reversedb{
 	my ($self,%opt)=@_;
 	my $output_filename=_create_outputfile($self->file,%opt);
 	my $num_decoys=0;
-	#my ($fasta,$fasta_reversed);
-	#try{
-		open my $fasta,"<",$self->file;
-		open my $fasta_reversed,">",$output_filename;
-	#}
-	#catch{
-		#die "Can't generate the output DB\n$_";
-	#};
-	
+	open my $fasta,"<",$self->file;
+	open my $fasta_reversed,">",$output_filename;
 	{
 		local $/ = "\n>";
-		#print $fasta_reversed "k";	#Mira esto, es un parche horrible. La escituro hace un espacio y se come el primer caracter usado.
 		while(<$fasta>){
 			chomp;
 			$_ =~ s/(^>*.+)\n//;  # remove FASTA header
@@ -35,7 +27,6 @@ sub reversedb{
 			my $seq=$_;
 			
 			print $fasta_reversed $head."\n";
-			#print  $head."\n";
 			while (my $chunk = substr($seq, 0, 60, "")) {
         		print $fasta_reversed $chunk."\n";
         		#print $chunk."\n";
@@ -54,6 +45,8 @@ sub reversedb{
 	}
 	close $fasta;
 	close $fasta_reversed;
+	my $reversedb=Massprot::Fastadb->new(file=>$output_filename);
+	return $reversedb;
 }
 
 

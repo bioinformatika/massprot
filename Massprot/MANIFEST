@@ -1,5 +1,4 @@
 Changes
-ignore.txt
 inc/Module/AutoInstall.pm
 inc/Module/Install.pm
 inc/Module/Install/AutoInstall.pm
@@ -14,9 +13,8 @@ inc/Module/Install/WriteAll.pm
 lib/Massprot.pm
 lib/Massprot/Fastadb.pm
 lib/Massprot/Roles/File.pm
-lib/Massprot/Roles/TextFile.pm
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 META.yml
 README
 t/00-load.t
