@@ -49,8 +49,8 @@ sub _create_outputfile {
     try{
         no warnings;
         open FH,">",$output_filename;
-        print FH "\n";
-        die if(tell(FH) == -1)
+        print FH "";
+        die if(tell(FH) == -1);
     }
     catch{
         print $_,"\n";

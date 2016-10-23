@@ -1,17 +1,5 @@
 massprot.sublime-project
 massprot.sublime-workspace
-\binc/Module/AutoInstall.pm
-\binc/Module/Install.pm
-\binc/Module/Install/AutoInstall.pm
-\binc/Module/Install/Base.pm
-\binc/Module/Install/Can.pm
-\binc/Module/Install/Fetch.pm
-\binc/Module/Install/\binclude.pm
-\binc/Module/Install/Makefile.pm
-\binc/Module/Install/Metadata.pm
-\binc/Module/Install/Win32.pm
-\binc/Module/Install/WriteAll.pm
-# Avoid version control files.
 \bRCS\b
 \bCVS\b
 \bSCCS\b
@@ -31,7 +19,7 @@ massprot.sublime-workspace
 \bMANIFEST\.bak
 \bMakefile$
 \bblib/
-\binc/
+#\binc/
 \bMakeMaker-\d
 \bpm_to_blib\.ts$
 \bpm_to_blib$
@@ -44,6 +32,7 @@ massprot.sublime-workspace
 \bBuild.COM$
 \bBUILD.COM$
 \bbuild.com$
+\.tar\.gz$
 
 # Avoid temp and backup files.
 ~$

@@ -1,6 +1,20 @@
 Changes
 ignore.txt
+inc/Module/AutoInstall.pm
+inc/Module/Install.pm
+inc/Module/Install/AutoInstall.pm
+inc/Module/Install/Base.pm
+inc/Module/Install/Can.pm
+inc/Module/Install/Fetch.pm
+inc/Module/Install/Include.pm
+inc/Module/Install/Makefile.pm
+inc/Module/Install/Metadata.pm
+inc/Module/Install/Win32.pm
+inc/Module/Install/WriteAll.pm
 lib/Massprot.pm
+lib/Massprot/Fastadb.pm
+lib/Massprot/Roles/File.pm
+lib/Massprot/Roles/TextFile.pm
 Makefile.PL
 MANIFEST
 META.yml
@@ -9,3 +23,5 @@ t/00-load.t
 t/manifest.t
 t/pod-coverage.t
 t/pod.t
+t/test_fasta.t
+t/testdata/testDB.fasta
