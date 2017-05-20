@@ -1,6 +1,6 @@
 package Massprot::Fastadb;
 use Moose;
-use namespace::autoclean;
+#use namespace::autoclean;
 use Try::Tiny;
 use Data::Dumper;;
 use File::Basename;
