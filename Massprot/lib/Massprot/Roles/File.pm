@@ -1,6 +1,5 @@
 package Massprot::Roles::File;
 use Moose::Role;
-#use namespace::autoclean;
 use File::Basename;
 use File::Spec;
 use Try::Tiny;
@@ -63,8 +62,5 @@ sub _create_outputfile {
 
 
 
-no Moose::Role;
 
 1;
-
-__END__

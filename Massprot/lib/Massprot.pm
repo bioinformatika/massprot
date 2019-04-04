@@ -138,5 +138,4 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
 =cut
-__PACKAGE__->meta->make_immutable; # End of Bio::Rambam::Proteomics
 1; # End of Massprot

@@ -1,6 +1,5 @@
 package Massprot::Fastadb;
 use Moose;
-#use namespace::autoclean;
 use Try::Tiny;
 use Data::Dumper;;
 use File::Basename;
@@ -50,4 +49,4 @@ sub reversedb{
 }
 
 
-__PACKAGE__->meta->make_immutable;
+1;
