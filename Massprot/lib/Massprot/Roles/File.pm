@@ -1,6 +1,6 @@
 package Massprot::Roles::File;
 use Moose::Role;
-use namespace::autoclean;
+#use namespace::autoclean;
 use File::Basename;
 use File::Spec;
 use Try::Tiny;
