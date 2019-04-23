@@ -26,9 +26,11 @@ nytprof.out
 <<<<<<< HEAD
 *.sublime-project
 *.sublime-workspace
+*perl.sublime-build
 *tar.gz
 blib/
 MANIFEST.bak
+pm_to_blib
 =======
 *-project
 -workspace
